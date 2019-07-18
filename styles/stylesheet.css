@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box; 
+}
+
+.bg-dark {
+    padding: 0 10em;
+}
+
+.nav-item {
+    padding: 0 0.5em
+}
+
+.hero {
+    background-image: url('../img/hero5.jpg'); 
+    height: 100%;
+    background-position: center center; 
+    position: relative; 
+    top: 0; 
+    bottom: 0; 
+    height: 100vh; 
+    z-index: 100; 
+}
+
+.hero-overlay {
+    position: absolute; 
+    background-color: rgba(0,0,0,0.65); 
+    top: 0; 
+    bottom: 0; 
+    height: 100%; 
+    width: 100%; 
+    z-index: 101; 
+}
+
+.cont {
+    padding-left: 6em; 
+    padding-right: 6em;
+}
+
+.navbar-toggler {
+    z-index: 102
+}
+
+h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-align: center; 
+    padding-bottom: 0.2
+}
+
+.flx p {
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.mflex h2 {
+    padding-bottom: 0.35em;
+}
+
+
+.flx { 
+  margin-top: 35vh;
+}
+
+.first {
+    margin: 0 9em;
+    height: 100vh;
+}
+
+.mflex {
+    display: flex;
+    padding-top: 4em;
+}
+
+
+.mflex h2 {
+    text-align: center;
+}
+
+
+
+.about { 
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.profile {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.img-ctr {
+    display: flex; 
+    justify-content: center;
+}
+
+.fab {
+    margin-top: 0.6em;
+    font-size: 2em;
+}
+
+.fa-linkedin {
+    color: #696969;
+    margin-right: 0.3em; 
+}
+
+.fa-github-square {
+    color:#696969;
+    margin-left: 0.3em;
+}
+
+.fa-linkedin:hover {
+    color: #2567b3;
+}
+
+.fa-github-square:hover {
+    color: #a80000
+}
