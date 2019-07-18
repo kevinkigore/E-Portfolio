@@ -11,7 +11,7 @@
 }
 
 .hero {
-    background-image: url('./img/hero5.jpg'); 
+    background-image: url('../img/hero5.jpg'); 
     height: 100%;
     background-position: center center; 
     position: relative; 
