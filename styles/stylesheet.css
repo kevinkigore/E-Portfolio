@@ -2,6 +2,10 @@
     box-sizing: border-box; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-dark {
     padding: 0 10em;
 }
@@ -139,7 +143,7 @@ h1 {
 }
 
 .final {
-    padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 .overlay h3 {
@@ -165,3 +169,64 @@ h1 {
     top: 0;
 }
 
+.cc {
+    background-color: black; 
+    color: #fff; 
+    display: block; 
+    text-align: center;
+}
+
+.footer {
+    margin-top: 5em; 
+    padding-top: 0.7em;
+}
+
+.footer a {
+    text-decoration: none; 
+    color: white; 
+
+}
+
+.footer a:hover {
+    color: 	#808080; 
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer {
+    background-color: #191919;
+}
+
+.mynav {
+    color: white;
+}
+
+.footer ul {
+    margin-left: 3.5em; 
+}
+
+.cflex {
+    display: flex;
+     
+}
+
+.navlist { 
+    flex-basis: 0; 
+    flex-grow: 1;
+}
+
+.medialist {
+    flex-basis: 0; 
+    flex-grow: 1;
+}
+
+.footer {
+    padding-left: 30em; 
+    padding-right: 15em; 
+}
+
+.footer ul li a .fab {
+    font-size: 20px
+}
